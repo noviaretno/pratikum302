@@ -20,4 +20,17 @@ int main () {
 		L = p*l;
 		cout << " Luas persegi panjang : "<<L<<endl;
 	}
-}
+	else if (bidang == 'S' || bidang == 'S') {
+		cout << " Menghitung Luas Segitiga \n";
+		cout << " Masukan alasnya : ";
+		cin >> a;
+		cout << " Masukkan tingginya : ";
+		cin >> t;
+		L = 0.5*a*t;
+		cout << " Luas persegi panjang : "<<L<<endl;
+		
+	}
+	else{
+		cout<<"Maff, Anda Salah Memilih"<<endl;
+	}
+	}
